@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RSEml
+</name>
+</assembly>
+<members>
+<member name="M:RSEml.Form1.SendMail(RSEml.Hlib.MailFormats.EmlParser@)">
+	<summary>
+ 改良後的寫法，所有資訊從EmlParser中提取。
+ </summary>
+	<param name="emlData">emlData類別，含內含所需資訊</param>
+	<returns>"ok"表示成功；其餘失敗</returns>
+	<remarks></remarks>
+</member><member name="M:RSEml.Form1.CreatAttZip(System.String,System.String)">
+	<summary>
+ Create a Attachment of Zip
+ </summary>
+	<param name="content">Must use attStrZip Property </param>
+	<param name="strFileName">The Name of Zip</param>
+	<returns>Attachment</returns>
+	<remarks></remarks>
+</member><member name="P:RSEml.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:RSEml.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:RSEml.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
