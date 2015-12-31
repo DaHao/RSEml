@@ -1,0 +1,11 @@
+# No .suo File
+*.suo
+
+# No bin directory
+bin/
+
+# No obj directory
+obj/
+
+# No .user File
+*.user
